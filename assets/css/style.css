@@ -1,0 +1,58 @@
+html,
+body {
+  height: 100%;
+  background-image: url(../images/psychic.png);
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+}
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
+          box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+.inner {
+  padding: 2rem;
+}
+.mastfoot {
+  color: rgba(255,255,255,.5);
+  position: fixed;
+  bottom: 0;
+}
+.inner-text {
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+.headers {
+  margin-bottom: 100px;
+}
+.masthead {
+  margin-bottom: 2rem;
+}
+.masthead-brand {
+  position: fixed;
+  top: 0;
+}
+#sub-wrapper {
+  padding: 10px;
+  padding-left: auto;
+  padding-right: auto;
+  /*background-color: red;*/
+}
+.cover-heading {
+  font-size: 60px;
+}
