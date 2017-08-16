@@ -27,7 +27,7 @@ body {
 .inner {
   padding: 2rem;
 }
-.mastfoot {
+.footer {
   color: rgba(255,255,255,.5);
   position: fixed;
   bottom: 0;
@@ -49,9 +49,9 @@ body {
 }
 #sub-wrapper {
   padding: 10px;
-  padding-left: auto;
-  padding-right: auto;
   /*background-color: red;*/
+  margin: 0 auto;
+  max-width: 300px;
 }
 .cover-heading {
   font-size: 60px;
